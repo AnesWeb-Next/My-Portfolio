@@ -1,44 +1,44 @@
 export const services = [
   {
     id: 1,
-    icon: 'Layout',
-    title: 'Frontend Development',
+    icon: "Layout",
+    title: "Frontend Development",
     description:
-      'Building responsive, high-performance web applications with React, Next.js, and modern front-end practices that deliver exceptional user experiences.',
+      "Building responsive, high-performance web applications with React, Next.js, and modern front-end practices that deliver exceptional user experiences.",
   },
   {
     id: 2,
-    icon: 'Smartphone',
-    title: 'Responsive Design',
+    icon: "Smartphone",
+    title: "Responsive Design",
     description:
-      'Creating mobile-first, adaptive interfaces that look and function perfectly across desktops, tablets, and smartphones while preserving usability and accessibility.',
+      "Creating mobile-first, adaptive interfaces that look and function perfectly across desktops, tablets, and smartphones while preserving usability and accessibility.",
   },
   {
     id: 3,
-    icon: 'Palette',
-    title: 'UI/UX Design',
+    icon: "Palette",
+    title: "Backend Development",
     description:
-      'Designing intuitive, visually engaging interfaces with strong information architecture, polished interactions, and a clear focus on user-centered experiences.',
+      "Backend Developer specializing in building scalable and secure RESTful APIs using Node.js and Express.js, with strong expertise in database management and server-side architecture.",
   },
   {
     id: 4,
-    icon: 'Code2',
-    title: 'Custom Components',
+    icon: "Code2",
+    title: "Custom Components",
     description:
-      'Developing reusable, scalable component libraries and design systems that ensure consistency, reduce development time, and improve maintainability across projects.',
+      "Developing reusable, scalable component libraries and design systems that ensure consistency, reduce development time, and improve maintainability across projects.",
   },
   {
     id: 5,
-    icon: 'Zap',
-    title: 'Performance Optimization',
+    icon: "Zap",
+    title: "Performance Optimization",
     description:
-      'Optimizing applications for speed and efficiency through code splitting, asset compression, lazy loading, and thoughtful performance tuning for fast interactions.',
+      "Optimizing applications for speed and efficiency through code splitting, asset compression, lazy loading, and thoughtful performance tuning for fast interactions.",
   },
   {
     id: 6,
-    icon: 'GitBranch',
-    title: 'Code Review & Consulting',
+    icon: "GitBranch",
+    title: "Code Review & Consulting",
     description:
-      'Providing expert code reviews, architecture guidance, and technical consulting to improve code quality, maintainability, and long-term product scalability.',
+      "Providing expert code reviews, architecture guidance, and technical consulting to improve code quality, maintainability, and long-term product scalability.",
   },
 ];
