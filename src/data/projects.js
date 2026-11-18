@@ -3,7 +3,7 @@ export const projects = [
     id: 1,
     title: "AI-CRM Dashboard",
     description:
-      "Full-stack online shopping application with product discovery, cart management, secure checkout, and real-time inventory tracking for a smooth customer experience.",
+      "AI-CRM Dashboard centralizes customer data, sales pipelines, and team activity in one clean, responsive interface. By integrating AI capabilities, it goes beyond basic record-keeping: it surfaces insights, automates repetitive tasks, and helps sales teams prioritize the right leads at the right time.",
     image: "/images/projects/project1.jpg",
     category: "Web Apps",
     technologies: ["React", "Node.js", "MongoDB", "Express.js"],
@@ -15,7 +15,7 @@ export const projects = [
     id: 2,
     title: "AI-Resume Checker",
     description:
-      "Collaborative project management tool with drag-and-drop kanban boards, team task assignments, real-time updates, and progress analytics for streamlined workflows.",
+      "AI Resume Checker helps candidates understand how their resume performs before they apply. Users upload a resume, optionally paste a target job description, and receive an instant AI-generated analysis covering ATS compatibility, keyword match, formatting, and content quality, along with specific suggestions for improvement.",
     image: "/images/projects/projects2.jpg",
     category: "Full Stack",
     technologies: ["React", "Node.js", "MongoDB", "Express.js"],
@@ -27,7 +27,7 @@ export const projects = [
     id: 3,
     title: "AI-Powered Habit Tracker",
     description:
-      "Comprehensive React component library with 50+ reusable and customizable UI components, design system tokens, and documentation built to accelerate front-end development.",
+      "AI-Powered Habit Tracker goes beyond simple checklists. Users create habits, log daily progress, and visualize their consistency over time, while an AI coach analyzes their patterns to offer motivation, spot why streaks break, and suggest realistic adjustments to stay on track.",
     image: "/images/projects/projects3.jpg",
     category: "Full Stack",
     technologies: ["React", "Node.js", "MongoDB", "Express.js"],
@@ -39,7 +39,7 @@ export const projects = [
     id: 4,
     title: "Booking Hotel",
     description:
-      "Real-time social media analytics dashboard with campaign tracking, engagement metrics, sentiment analysis, and interactive visualizations for data-driven marketing decisions.",
+      "Hotel Booking is an end-to-end reservation platform that mirrors the experience of popular booking sites. Guests can browse hotels, filter by price, location, and amenities, pick dates, and complete a secure booking and payment. Hotel managers get a dashboard to handle inventory, pricing, and incoming reservations.",
     image: "/images/projects/projects4.jpg",
     category: "Web Apps",
     technologies: ["Next.js", "Node.js", "TypeScript", "Express.js"],
@@ -51,7 +51,7 @@ export const projects = [
     id: 5,
     title: "Landing Page",
     description:
-      "Beautiful weather application with hourly and weekly forecasts, interactive location maps, severe-weather alerts, and a clean mobile-friendly interface for quick planning.",
+      "This project is a static agency landing page built with HTML, CSS, and JavaScript The page uses custom CSS animations, responsive layouts, and the Embla carousel library. The main file is :index.html",
     image: "/images/projects/projects5.jpg",
     category: "UI Components",
     technologies: ["Javascript", "CSS", "HTML", "WebFonts"],
@@ -63,7 +63,7 @@ export const projects = [
     id: 6,
     title: "Master Page",
     description:
-      "Modern, customizable portfolio template for developers and designers featuring dark mode, smooth animations, project showcases, and responsive layouts that highlight work beautifully.",
+      "Master is a modern, responsive multipurpose website template built with HTML5 and CSS3. It features a polished landing page with a navigation menu, mega-menu, articles, image gallery, services, team members, testimonials, pricing plans, event countdown, statistics, and discount request sections.",
     image: "/images/projects/projects6.jpg",
     category: "UI Components",
     technologies: ["Javascript", "CSS", "HTML", "WebFonts"],
