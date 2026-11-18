@@ -15,8 +15,8 @@ export const PERSONAL_INFO = {
 export const SOCIAL_LINKS = {
   github: "https://github.com/AnesWeb-Next",
   linkedin: "https://www.linkedin.com/in/ryan-anes-5b0245221/",
-  twitter: "https://twitter.com",
-  dribbble: "https://dribbble.com",
+  Facebook: "https://web.facebook.com/rayan.ouzzine.2025",
+  Instagram: "https://www.instagram.com/rayan_ozn?avpt=bGhqaW53Njd4cDU4",
 };
 
 export const STATS = [

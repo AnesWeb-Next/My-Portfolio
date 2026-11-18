@@ -1,14 +1,14 @@
 import FadeIn from "../animations/FadeIn";
 import { Mail, MapPin, Heart } from "lucide-react";
-import { FaGithub, FaLinkedin, FaTwitter, FaDribbble } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFacebook, FaInstagram } from "react-icons/fa";
 import { PERSONAL_INFO, SOCIAL_LINKS, NAV_LINKS } from "../../utils/constants";
 import { scrollToSection } from "../../hooks/useScrollSpy";
 const Footer = () => {
   const socialIcons = {
     github: FaGithub,
     linkedin: FaLinkedin,
-    twitter: FaTwitter,
-    dribbble: FaDribbble,
+    facebook: FaFacebook,
+    instagram: FaInstagram,
   };
   return (
     <footer className="relative bg-black overflow-hidden border-t border-white/10">
@@ -82,7 +82,7 @@ const Footer = () => {
               </p>
               <div className="flex flex-wrap gap-3">
                 {Object.entries(SOCIAL_LINKS).map(([platform, url]) => {
-                  const Icon = socialIcons[platform];
+                  const Icon = socialIcons[platform.toLowerCase()];
 
                   return Icon ? (
                     <a

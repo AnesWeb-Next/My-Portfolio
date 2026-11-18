@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Mail, MapPin, Send, MessageSquare } from "lucide-react";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFacebook, FaInstagram } from "react-icons/fa";
 import { PERSONAL_INFO, SOCIAL_LINKS } from "../../utils/constants";
 import FadeIn from "../animations/FadeIn";
 
@@ -43,7 +43,8 @@ const Contact = () => {
   const socialIcons = {
     github: FaGithub,
     linkedin: FaLinkedin,
-    twitter: FaTwitter,
+    facebook: FaFacebook,
+    instagram: FaInstagram,
   };
   return (
     <section id="contact" className="relative py-20 bg-black overflow-hidden">
@@ -202,22 +203,21 @@ const Contact = () => {
               <div>
                 <p className="text-sm text-white/60 mb-4">Connect with me</p>
                 <div className="flex gap-4">
-                  {Object.entries(SOCIAL_LINKS)
-                    .slice(0, 3)
-                    .map(([platform, url]) => {
-                      const Icon = socialIcons[platform];
-                      return Icon ? (
-                        <a
-                          key={platform}
-                          href={url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="p-4 bg-white/5 rounded-xl border border-white/10 hover:border-primary/50 hover:scale-110 transition-all duration-300 group"
-                        >
-                          <Icon className="w-6 h-6 text-white/60 group-hover:text-primary transition-colors" />
-                        </a>
-                      ) : null;
-                    })}
+                  {Object.entries(SOCIAL_LINKS).map(([platform, url]) => {
+                    const Icon = socialIcons[platform.toLowerCase()];
+                    return Icon ? (
+                      <a
+                        key={platform}
+                        href={url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="p-4 bg-white/5 rounded-xl border border-white/10 hover:border-primary/50 hover:scale-110 transition-all duration-300 group"
+                        aria-label={`Connect on ${platform}`}
+                      >
+                        <Icon className="w-6 h-6 text-white/60 group-hover:text-primary transition-colors" />
+                      </a>
+                    ) : null;
+                  })}
                 </div>
               </div>
             </div>
